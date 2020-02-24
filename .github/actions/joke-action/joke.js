@@ -12,7 +12,7 @@ const options = {
 };
 
 async function getJoke() {
-  const rest = await request(options);
+  const res = await request(options);
   return res.joke;
 }
 
